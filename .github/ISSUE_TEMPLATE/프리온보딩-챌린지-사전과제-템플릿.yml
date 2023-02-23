@@ -1,0 +1,34 @@
+name: 사전과제 제출
+description: 여기에 사전과제를 제출해주세요.
+
+body:
+  - type: textarea
+    attributes:
+      label: 1. 현재 사용하고 있는, 적용해 본 SW아키텍처가 무엇인가요? 해당 SW아키텍처에 대해 설명 가능하신가요?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 2. SW아키텍처에 대한 관심도는 어느 정도이실까요?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 3. SW아키텍처가 필요한 이유가 무엇일까요?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 4. SW아키텍처 간 테스트는 어떻게 하고 있으신가요?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 5. 이직에 있어 평소에 고민이 있으신 게 있으실까요?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 6. 면접 볼 회사에 대해 어느 정도까지 알아가시나요?
+    validations:
+      required: true
